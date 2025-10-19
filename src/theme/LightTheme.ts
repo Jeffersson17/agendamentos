@@ -8,6 +8,7 @@ const BLUE_THEME: ThemeTypes = {
     },
     colors: {
         primary: '#0085db',
+        red: '#b41810ff',
         secondary: '#707a82',
         info: '#46caeb',
         success: '#4bd08b',
@@ -34,7 +35,7 @@ const BLUE_THEME: ThemeTypes = {
         darkbg:'#2a3447',
         bglight:'#f5f8fb',
         bgdark:'#111c2d'
-       
+
     }
 };
 
