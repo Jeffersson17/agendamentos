@@ -1,20 +1,20 @@
 <script setup>
-import ProfitExpanse from '@/components/dashboards/ProfitExpense.vue';
-import TrafficDistribution from '@/components/dashboards/TrafficDistribution.vue';
-import ProductSales from '@/components/dashboards/ProductSales.vue';
+import WeekStatistics from '@/components/dashboards/WeekStatistics.vue';
+import MonthlySchedules from '@/components/dashboards/MonthlySchedules.vue';
+import MonthlyRevenue from '@/components/dashboards/MonthlyRevenue.vue';
 </script>
 
 <template>
     <v-row>
         <v-col cols="12" sm="12" lg="8">
-            <ProfitExpanse />
+            <WeekStatistics />
         </v-col>
         <v-col cols="12" sm="12" lg="4">
             <div class="mb-6">
-                <TrafficDistribution />
+                <MonthlySchedules />
             </div>
             <div>
-                <ProductSales />
+                <MonthlyRevenue />
             </div>
         </v-col>
     </v-row>
